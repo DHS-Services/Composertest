@@ -2,13 +2,12 @@
     "name": "dhs-services/composertest",
     "description": "Test Package a component",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "MIT"
     ],
     "require": {
-        "php": "~7.2.0||~7.3.0",
-        "magento/framework": "~100.0.4"
+        "magento/module-directory": "~100.4.3"
     },
     "autoload": {
         "files": [ "registration.php" ],
